@@ -28,7 +28,7 @@ int main()
     
   if(numItems >= 5)
    { 
-     cout<< "You'll need a bigger list!\n";
+     cout<< "\nYou'll need a bigger list!\n";
    }
   numItems++;
 
