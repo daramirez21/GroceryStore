@@ -29,16 +29,14 @@ int main()
   if(numItems > 5)
   {
    list[numItems] = item;
-   numItems++;
   }
 
    else
      { 
      cout<< "You'll need a bigger list!\n";
      } 
-
   }
-
+   numItems++;
 
   } while (input != 'q' && input != 'Q');
 
