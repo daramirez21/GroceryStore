@@ -26,7 +26,7 @@ int main()
     cin>>item;
     cin.clear();
     cin.ignore();
-  }
+ 
    if (numItems<5)
     {
      list[numItems] = item;
@@ -37,7 +37,7 @@ int main()
    { 
      cout<< "You'll need a bigger list!\n";
    }
-
+  }
   } while (input != 'q' && input != 'Q');
 
   return 0;
